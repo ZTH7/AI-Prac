@@ -268,7 +268,7 @@ class StayWestSearchAgent(SearchAgent):
 
     def __init__(self):
         self.searchFunction = search.uniformCostSearch
-        def costFn(pos): return 2 ** pos[0]
+        def costFn(pos): return 10 ** pos[0]
         self.searchType = lambda state: PositionSearchProblem(state, costFn)
 
 
