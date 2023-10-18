@@ -339,7 +339,7 @@ class CornersProblem(search.SearchProblem):
         if cornersStatus[0] == "unvisited" or cornersStatus[1] == "unvisited" or cornersStatus[2] == "unvisited" or cornersStatus[3] == "unvisited":
             return False
 
-        # Returns True if all corners are visited.
+        # Returns True if all corners are vi    sited.
         return True
 
         util.raiseNotDefined()
