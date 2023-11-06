@@ -47,5 +47,5 @@ class Game:
 
 
 if __name__ == "__main__":
-    game = Game(Board(), PlayerAB(4, True), PlayerAB(4, False))
+    game = Game(Board(), PlayerAB(3, True), PlayerMM(3, False))
     game.simulateLocalGame()
